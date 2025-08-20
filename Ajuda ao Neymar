@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url("https://ichef.bbci.co.uk/ace/standard/766/cpsprodpb/ab64/live/1bb44100-7bf4-11f0-aece-9756192b0836.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.632);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            align-items: center;
+            width: 50%;
+            min-width: 400px;
+        }
+        h1 {
+            text-align: center;
+            color: black;
+        }
+        label {
+            display: block;
+            margin-bottom: 1px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="titulo">Ajuda ao Neymar</h1>
+        <label id="labelusuario" for="usuario">ID Usuário</label>
+        <input type="text" id="usuario" placeholder="Digite seu ID..." required>
+        <label id="labelsenha" for="senha">Senha</label>
+        <input type="password" id="senha" placeholder="Digite sua senha...">
+        <button onclick="vericarcadastro()">Cadastrar</button>
+    </div>
+    <script src="blabla.js"></script>
+</body>
+</html>
